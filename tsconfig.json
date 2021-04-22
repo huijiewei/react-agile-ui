@@ -1,0 +1,14 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react-jsx"
+  }
+}
