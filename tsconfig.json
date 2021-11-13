@@ -6,6 +6,7 @@
     "strict": true,
     "esModuleInterop": true,
     "isolatedModules": true,
+    "moduleResolution": "node",
     "noEmit": true,
     "skipLibCheck": true,
     "lib": ["dom", "dom.iterable", "esnext"],

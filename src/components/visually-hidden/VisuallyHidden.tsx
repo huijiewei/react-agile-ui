@@ -1,9 +1,9 @@
 import { forwardRef } from 'react';
 
 import { VisuallyHiddenClassName } from './VisuallyHidden.css';
-import { ForwardRefComponent, OwnProps } from '../../utils/polymorphic';
-import { Primitive } from '../primitive/Primitive';
-import { __DEV__ } from '../../utils/assertion';
+import { ForwardRefComponent, OwnProps } from '@uikit/utils/polymorphic';
+import { Primitive } from '@uikit/components/primitive/Primitive';
+import { __DEV__ } from '@uikit/utils/assertion';
 
 const NAME = 'VisuallyHidden';
 const DEFAULT_TAG = 'span';

@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
-import { __DEV__ } from '../../utils/assertion';
+import { __DEV__ } from '@uikit/utils/assertion';
 
-import { ForwardRefComponent } from '../../utils/polymorphic';
+import { ForwardRefComponent } from '@uikit/utils/polymorphic';
 
 const NAME = 'Primitive';
 const DEFAULT_TAG = 'div';

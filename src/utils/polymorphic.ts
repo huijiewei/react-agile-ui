@@ -1,7 +1,13 @@
-import  { ComponentPropsWithRef, ElementType, JSXElementConstructor, ReactElement,ForwardRefExoticComponent as ReactForwardRefExoticComponent } from 'react';
+// adapted from @radix-ui/react-polymorphic
 
-// eslint-disable-next-line @typescript-eslint/ban-types
-type Merge<P1 = {}, P2 = {}> = Omit<P1, keyof P2> & P2;
+import {
+  ComponentPropsWithRef,
+  ElementType,
+  JSXElementConstructor,
+  ReactElement,
+  ForwardRefExoticComponent as ReactForwardRefExoticComponent,
+} from 'react';
+import { Merge } from './types';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/ban-types
 type OwnProps<E> = E extends ForwardRefComponent<any, infer P> ? P : {};
